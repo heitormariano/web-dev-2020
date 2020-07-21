@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Informations</title>
+  </head>
+  <body>
+    <h3>Contact Informations Details</h3>
+    <ul>
+      <li>Phone: 1-071-465-0999 x4186</li>
+      <li>E-mail: Dwight_Stracke@yahoo.com</li>
+      <li>Home Page: https://lurline.net</li>
+    </ul>
+    <!--Using fieldset in the form-->
+    <!--inline CSS was used-->
+    <form>
+      <div style="padding: 4px;">
+        <fieldset style="padding: 8px; width: 520px;">
+          <legend>Personal Information</legend>
+          <label for="name">Name:</label>
+          <input type="text" name="name" id="name" />
+          <label for="">Age:</label>
+          <input type="number" />
+        </fieldset>
+      </div>
+      <div style="padding: 4px;">
+        <fieldset style="padding: 8px; width: 520px;">
+          <legend>Registration Data</legend>
+          <label for="email">Email:</label>
+          <input type="email" name="email" id="email" />
+          <label for="password">Password:</label>
+          <input type="password" name="password" id="password" />
+        </fieldset>
+        <label for="term">Do you agree the terms?</label>
+        <input type="checkbox" name="term" id="term" />
+      </div>
+      <div style="padding: 6px;">
+        <input type="submit" value="Send" />
+      </div>
+    </form>
+  </body>
+</html>
