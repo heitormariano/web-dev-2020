@@ -1,8 +1,23 @@
-h2{
+h2 {
   color: brown;
   font-size: 20px;
 }
 
 p {
   color: chocolate;
+}
+
+img:hover {
+  background-color: rgb(243, 122, 114);
+}
+
+.pudding-img{
+  background-color: rgb(248, 227, 212);
+}
+.cutlery{
+  background-color: rgb(248, 227, 212);
+}
+
+.circular{
+  border-radius: 100%;
 }
